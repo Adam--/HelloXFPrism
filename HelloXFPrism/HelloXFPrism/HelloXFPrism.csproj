@@ -37,9 +37,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
-    <Compile Include="Views\deleteme.xaml.cs">
-      <DependentUpon>deleteme.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\PrismContentPage.xaml.cs">
       <DependentUpon>PrismContentPage.xaml</DependentUpon>
     </Compile>
@@ -101,12 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\PrismContentPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\deleteme.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
